@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #171717;
+}
+.oswald-font {
+  font-family: 'Oswald', sans-serif;
+  color: white; /* Optional: Set default text color */
+  text-align: center; /* Optional: Center align text */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: #1A1A1D; /* Set the background color directly */
+  color: #ffffff;
+  font-family: Arial', Helvetica, sans-serif;'
+}
